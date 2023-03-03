@@ -38,6 +38,7 @@ package example.myapp
         }
     }
 object GoldColor : FishColor {
+    override val color: String = "gold"
     override val color = "gold"
 }
 class Plecostomus(fishColor: FishColor = GoldColor):
